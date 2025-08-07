@@ -1,0 +1,63 @@
+/* Đảm bảo form đăng nhập nằm ở giữa màn hình */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .login-form {
+    background-color: #f0f8ff; /* Màu nền xanh dương nhạt */
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  .login-form h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .login-form div {
+    margin-bottom: 15px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #b0c4de; /* Viền màu xanh dương nhạt */
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .login-form input:focus {
+    border-color: #87cefa; /* Màu xanh nhạt khi input được focus */
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #87cefa; /* Nền nút màu xanh dương */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #add8e6; /* Màu khi hover: xanh dương nhạt hơn */
+  }
+  
+  .login-form button:active {
+    background-color: #b0e0e6; /* Màu khi nhấn: xanh dương đậm hơn */
+  }
+  

@@ -1,0 +1,68 @@
+/* Container hiển thị danh sách công ty */
+.company-list-container {
+    display: flex;
+    flex-wrap: wrap; /* Để các thẻ công ty tự động xuống dòng khi hết không gian */
+    gap: 15px; /* Khoảng cách giữa các thẻ công ty */
+    padding: 20px;
+    justify-content: center; /* Căn giữa các thẻ */
+}
+
+/* Thẻ Link hiển thị thông tin công ty */
+.company-card {
+    background-color: #f9f9f9; /* Màu nền nhạt */
+    border: 1px solid #ddd; /* Viền nhẹ */
+    border-radius: 8px; /* Bo góc */
+    padding: 15px; /* Khoảng cách bên trong */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+    text-decoration: none; /* Bỏ gạch chân */
+    color: #333; /* Màu chữ */
+    flex: 1 1 calc(30% - 15px); /* Chia đều chiều rộng */
+    max-width: 300px;
+    min-width: 250px;
+    transition: all 0.3s ease; /* Hiệu ứng hover mượt */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Hiệu ứng khi hover vào thẻ công ty */
+.company-card:hover {
+    background-color: #e0f7fa; /* Nền xanh nhạt khi hover */
+    transform: scale(1.05); /* Phóng to nhẹ */
+    color: #00796b; /* Màu chữ đổi khi hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Tăng độ đổ bóng */
+}
+
+/* Nút xem thêm */
+.btnXemthem {
+    margin: 20px auto; 
+    display: block; /* Đảm bảo nút không tràn ra ngoài */
+    background-color: #007bff; /* Màu xanh dương */
+    color: white; /* Màu chữ trắng */
+    border: none; /* Bỏ viền */
+    border-radius: 5px; /* Bo góc nút */
+    padding: 10px 20px; /* Kích thước nút */
+    font-size: 16px; /* Kích thước chữ */
+    font-weight: bold;
+    cursor: pointer; /* Thay đổi con trỏ khi hover */
+    transition: background-color 0.3s ease; /* Hiệu ứng hover mượt */
+}
+
+/* Hiệu ứng khi hover vào nút */
+button:hover {
+    background-color: #0056b3; /* Xanh đậm hơn khi hover */
+}
+
+/* Thẻ Link bên trong button */
+button a {
+    text-decoration: none; /* Bỏ gạch chân */
+    color: white; /* Màu chữ trắng */
+}
+
+/* Đảm bảo hover hoạt động với cả nút và link */
+button a:hover {
+     color: #d4e1f5;
+}
+h2{
+    text-align: center;
+}

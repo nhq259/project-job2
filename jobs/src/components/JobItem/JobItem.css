@@ -1,0 +1,47 @@
+.job-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.job-item__title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.job-item__link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.job-item__link:hover {
+    text-decoration: underline;
+}
+
+.job-item__info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.job-item__tag, .job-item__city {
+    background-color: #e0f7fa;
+    color: #00796b;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.job-item__salary {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.job-item__company, .job-item__date {
+    font-size: 14px;
+    color: #555;
+}

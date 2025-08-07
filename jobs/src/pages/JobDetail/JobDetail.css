@@ -1,0 +1,112 @@
+/* Tổng thể */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .job-detail-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Nút trở lại và ứng tuyển */
+  .back-button,
+  .apply-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .back-button:hover,
+  .apply-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Tiêu đề công việc */
+  .job-title {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Tags và thành phố */
+  .job-tags,
+  .job-city {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: #555555;
+    margin-right: 5px;
+  }
+  
+  .tag,
+  .city {
+    display: inline-block;
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 5px 0 0;
+    font-size: 13px;
+  }
+  
+  /* Mức lương, địa chỉ, ngày đăng */
+  .job-salary,
+  .company-address,
+  .post-date {
+    margin-bottom: 15px;
+  }
+  
+  .salary,
+  .address,
+  .date {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Mô tả công việc và giới thiệu công ty */
+  .job-description,
+  .company-description {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    color: #333333;
+    line-height: 1.6;
+  }
+  
+  .job-description .label,
+  .company-description .label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .custom-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,49 @@
+/* Dành riêng cho danh sách công ty */
+.company-list {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #f0f8ff; /* Nền xanh nhạt */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .company-list h1 {
+    text-align: center;
+    color: #0056b3; /* Xanh dương đậm */
+    margin-bottom: 20px;
+  }
+  
+  .company-list .company-item {
+    display: block;
+    background-color: #e7f1ff; /* Xanh dương nhạt */
+    border: 1px solid #b3d4fc; /* Viền xanh */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: #0056b3;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .company-list .company-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .company-list .company-item span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .company-list .company-item span strong {
+    color: #004080; /* Xanh đậm */
+  }
+  
+  .company-list p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+  }
+  

@@ -1,0 +1,387 @@
+{
+  "city": [
+    {
+      "key": 1,
+      "value": "Hà Nội",
+      "id": "0356"
+    },
+    {
+      "key": 2,
+      "value": "Hồ Chí Minh",
+      "id": "bfee"
+    },
+    {
+      "key": 3,
+      "value": "Đà Nẵng",
+      "id": "8391"
+    }
+  ],
+  "tags": [
+    {
+      "key": 1,
+      "value": "HTML",
+      "id": "d7e6"
+    },
+    {
+      "key": 2,
+      "value": "CSS",
+      "id": "937f"
+    },
+    {
+      "key": 3,
+      "value": "Javascript",
+      "id": "b5e2"
+    },
+    {
+      "key": 4,
+      "value": "Database",
+      "id": "6863"
+    },
+    {
+      "key": 5,
+      "value": "JSON",
+      "id": "2caa"
+    },
+    {
+      "key": 6,
+      "value": "PHP",
+      "id": "3798"
+    },
+    {
+      "key": 7,
+      "value": "Python",
+      "id": "b6cf"
+    },
+    {
+      "key": 8,
+      "value": "Java",
+      "id": "abfe"
+    },
+    {
+      "key": 9,
+      "value": "SQL",
+      "id": "706a"
+    },
+    {
+      "key": 10,
+      "value": "Angular",
+      "id": "def3"
+    },
+    {
+      "key": 11,
+      "value": "NodeJS",
+      "id": "f512"
+    },
+    {
+      "key": 12,
+      "value": "ReactJS",
+      "id": "a057"
+    },
+    {
+      "key": 13,
+      "value": "VueJS",
+      "id": "51a7"
+    },
+    {
+      "key": 14,
+      "value": "Django",
+      "id": "94e2"
+    },
+    {
+      "key": 15,
+      "value": "JQuery",
+      "id": "8fe0"
+    },
+    {
+      "key": 16,
+      "value": "TypeScript",
+      "id": "b46d"
+    }
+  ],
+  "jobs": [
+    {
+      "idCompany": 1,
+      "name": "Frontend Dev (Angular/ReactJS)",
+      "tags": [
+        "ReactJS",
+        "Angular",
+        "TypeScript"
+      ],
+      "salary": "1000",
+      "description": "Join a dynamic team building scalable web apps.",
+      "status": true,
+      "createAt": "29-04-2023 21:22:17",
+      "id": "1",
+      "city": [
+        "Đà Nẵng"
+      ],
+      "updateAt": "30-04-2023 14:12:25"
+    },
+    {
+      "idCompany": 1,
+      "name": "Frontend Tech Lead (X2)",
+      "tags": [
+        "HTML",
+        "CSS",
+        "ReactJS"
+      ],
+      "salary": "6868",
+      "description": "Lead a talented frontend team with cutting-edge projects.",
+      "status": true,
+      "createAt": "01-05-2023 09:15:00",
+      "id": "2",
+      "city": [
+        "Hà Nội"
+      ],
+      "updateAt": "02-05-2023 11:45:30"
+    },
+    {
+      "idCompany": 2,
+      "name": "Backend Developer",
+      "tags": [
+        "NodeJS",
+        "Java",
+        "SQL"
+      ],
+      "salary": "1300",
+      "description": "Develop server-side logic and database management.",
+      "status": true,
+      "createAt": "10-05-2023 14:30:22",
+      "id": "3",
+      "city": [
+        "Hồ Chí Minh"
+      ],
+      "updateAt": "11-05-2023 15:35:45"
+    },
+    {
+      "idCompany": 3,
+      "name": "Full Stack Developer",
+      "tags": [
+        "JavaScript",
+        "NodeJS",
+        "ReactJS"
+      ],
+      "salary": "1400",
+      "description": "Work on both frontend and backend projects.",
+      "status": true,
+      "createAt": "15-06-2023 10:00:00",
+      "id": "4",
+      "city": [
+        "Hà Nội",
+        "Đà Nẵng"
+      ],
+      "updateAt": "16-06-2023 12:00:00"
+    },
+    {
+      "idCompany": 4,
+      "name": "Data Scientist",
+      "tags": [
+        "Python",
+        "Machine Learning",
+        "SQL"
+      ],
+      "salary": "2000",
+      "description": "Analyze data to drive insights and solutions.",
+      "status": true,
+      "createAt": "20-06-2023 08:45:10",
+      "id": "5",
+      "city": [
+        "Hồ Chí Minh"
+      ],
+      "updateAt": "21-06-2023 10:15:00"
+    },
+    {
+      "idCompany": 5,
+      "name": "DevOps Engineer",
+      "tags": [
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ],
+      "salary": "1700",
+      "description": "Ensure smooth deployment and infrastructure scaling.",
+      "status": true,
+      "createAt": "05-07-2023 09:20:00",
+      "id": "6",
+      "city": [
+        "Hà Nội"
+      ],
+      "updateAt": "06-07-2023 14:50:00"
+    },
+    {
+      "id": "5219",
+      "idCompany": 1,
+      "name": "C#",
+      "tags": [
+        "Angular"
+      ],
+      "salary": "22222",
+      "city": [
+        "Hồ Chí Minh"
+      ],
+      "description": "1123123",
+      "status": false,
+      "updateAt": "05-12-2024 00:57:34"
+    }
+  ],
+  "cv": [
+    {
+      "id": "1",
+      "idCompany": 1,
+      "idJob": 2,
+      "name": "Le Van A",
+      "phone": "0123456789",
+      "email": "levana@gmail.com",
+      "statusRead": true,
+      "description": "Xin chào, tôi là Le Van A. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "29-04-2023 10:31:41",
+      "city": "Hà Nội"
+    },
+    {
+      "id": "2",
+      "idCompany": 1,
+      "idJob": 4,
+      "name": "Le Van E",
+      "phone": "0123456789",
+      "email": "levane@gmail.com",
+      "statusRead": true,
+      "description": "Xin chào, tôi là Le Van E. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "29-04-2023 10:32:41",
+      "city": "Hà Nội"
+    },
+    {
+      "id": "3",
+      "idCompany": 2,
+      "idJob": 3,
+      "name": "Nguyen Van B",
+      "phone": "0987654321",
+      "email": "nguyenb@gmail.com",
+      "statusRead": false,
+      "description": "Xin chào, tôi là Nguyen Van B. Tôi có kinh nghiệm về...",
+      "linkProject": "http://project-example.com",
+      "createAt": "01-05-2023 11:45:10",
+      "city": "Hồ Chí Minh"
+    },
+    {
+      "id": "4",
+      "idCompany": 3,
+      "idJob": 5,
+      "name": "Tran Thi C",
+      "phone": "0901122334",
+      "email": "tranc@gmail.com",
+      "statusRead": true,
+      "description": "Xin chào, tôi là Tran Thi C. Tôi đã làm việc trong lĩnh vực...",
+      "linkProject": "",
+      "createAt": "03-05-2023 14:20:00",
+      "city": "Đà Nẵng"
+    },
+    {
+      "id": "5",
+      "idCompany": 4,
+      "idJob": 2,
+      "name": "Pham Van D",
+      "phone": "0934567890",
+      "email": "phamd@gmail.com",
+      "statusRead": false,
+      "description": "Xin chào, tôi là Pham Van D. Tôi đang tìm kiếm cơ hội...",
+      "linkProject": "http://portfolio-phamd.com",
+      "createAt": "10-05-2023 09:15:30",
+      "city": "Hà Nội"
+    },
+    {
+      "id": "0400",
+      "name": "nhq259",
+      "phone": "0354598543",
+      "email": "YenipazarliMusrafa451@gmail.com",
+      "city": "Hà Nội",
+      "description": "q",
+      "projects": "ư",
+      "idJob": "6",
+      "idCompany": "5",
+      "createAt": "22-11-2024 00:11:16"
+    }
+  ],
+  "company": [
+    {
+      "companyName": "Công ty ABCDE",
+      "phone": "0935324245",
+      "email": "contact@abc.com",
+      "password": "123456",
+      "token": "pW7hBgkNOANjtkI7WHZ",
+      "id": "1",
+      "quantityPeople": "11",
+      "description": "1. Tầm nhìn: Trở thành một trong những ngân hàng tốt nhất Việt Nam.",
+      "detail": "Mức lương cạnh tranh, hấp dẫn. Chế độ phúc lợi cạnh tranh: Du lịch hằng năm, bảo hiểm sức khỏe...",
+      "address": "Phúc thọ hà nội",
+      "workingTime": "T2 - T7",
+      "website": "https://abc.com",
+      "name": "Công ty ABC"
+    },
+    {
+      "companyName": "Công ty XYZ",
+      "phone": "0912345678",
+      "email": "info@xyz.com",
+      "password": "abcdef",
+      "token": "xY7jLhPlQMN9lkT8ZQW",
+      "id": "2",
+      "quantityPeople": 15,
+      "description": "Tầm nhìn: Trở thành doanh nghiệp hàng đầu về công nghệ.",
+      "detail": "Mức lương hấp dẫn, cơ hội làm việc với các chuyên gia quốc tế.",
+      "address": "456 đường Nguyễn Huệ",
+      "workingTime": "T2 - T6",
+      "website": "https://xyz.com"
+    },
+    {
+      "companyName": "Công ty DEF",
+      "phone": "0987654321",
+      "email": "contact@def.com",
+      "password": "654321",
+      "token": "bT9jNsRxKmY7lIoP5HU",
+      "id": "3",
+      "quantityPeople": 25,
+      "description": "Trở thành công ty tài chính đáng tin cậy nhất.",
+      "detail": "Môi trường làm việc năng động, các hoạt động team building.",
+      "address": "789 đường Lê Lợi",
+      "workingTime": "T2 - T7",
+      "website": "https://def.com"
+    },
+    {
+      "companyName": "Công ty GHI",
+      "phone": "0901234567",
+      "email": "support@ghi.com",
+      "password": "password123",
+      "token": "qR5xUvLoNfK6pJtW9ZM",
+      "id": "4",
+      "quantityPeople": 12,
+      "description": "Phát triển và cung cấp các giải pháp phần mềm tiên tiến.",
+      "detail": "Cơ hội thăng tiến rõ ràng, hỗ trợ phát triển kỹ năng cá nhân.",
+      "address": "321 đường Cách Mạng Tháng 8",
+      "workingTime": "T2 - T6",
+      "website": "https://ghi.com"
+    },
+    {
+      "companyName": "Công ty MNO",
+      "phone": "0976543210",
+      "email": "admin@mno.com",
+      "password": "mno321",
+      "token": "uP2zGdFkWmB3hKqV7RT",
+      "id": "5",
+      "quantityPeople": 20,
+      "description": "Mang lại dịch vụ chất lượng cao trong lĩnh vực tư vấn.",
+      "detail": "Lương cạnh tranh, văn hóa công ty thân thiện, nhiều phúc lợi.",
+      "address": "567 đường Phan Đình Phùng",
+      "workingTime": "T2 - T7",
+      "website": "https://mno.com"
+    },
+    {
+      "id": "add3",
+      "fullName": "VinPast",
+      "email": "n1@gmail.com",
+      "phone": "0354598543",
+      "password": "123",
+      "token": "CxfLLbvMbAwCqSx0bGFK"
+    }
+  ]
+}

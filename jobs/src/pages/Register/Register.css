@@ -1,0 +1,59 @@
+/* Đảm bảo các lớp này chỉ áp dụng cho form đăng ký */
+.register-form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Style cho mỗi nhóm input trong form đăng ký */
+.register-form-container .form-group {
+    margin-bottom: 20px;
+}
+
+.register-form-container .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.register-form-container .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Hiệu ứng focus cho các input trong form đăng ký */
+.register-form-container .form-group input:focus {
+    border-color: #5b9bd5;
+    outline: none;
+}
+
+/* Style cho nút đăng ký trong form */
+.register-form-container .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #5b9bd5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hiệu ứng khi hover vào nút đăng ký */
+.register-form-container .submit-btn:hover {
+    background-color: #4a8bbd;
+}

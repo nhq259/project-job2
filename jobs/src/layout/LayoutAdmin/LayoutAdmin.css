@@ -1,0 +1,166 @@
+/* General Layout */
+.app-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #4e9cd1; /* Xanh lam nhạt cho sidebar */
+    color: white;
+    padding-top: 20px;
+    position: fixed;
+    height: 100vh;
+    transition: transform 0.3s ease;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1); /* Thêm shadow cho sidebar để nổi bật hơn */
+}
+
+.sidebar.closed {
+    transform: translateX(-100%);
+}
+
+.logo {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 15px;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.menu li:hover {
+    background-color: #66b3e3; /* Màu xanh nhạt khi hover */
+    color: white;
+}
+
+/* Main content */
+.main-content {
+    margin-left: 250px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    transition: margin-left 0.3s ease;
+    background-color: #f6f9fc; /* Nền sáng cho main content */
+}
+
+.sidebar.closed + .main-content {
+    margin-left: 0;
+}
+
+.header {
+    background-color: #3a8bb5; /* Màu xanh lam đậm hơn cho header */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Thêm shadow cho header */
+}
+
+.toggle-btn {
+    background-color: #ff7f50; /* Màu cam nhẹ cho nút toggle */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    margin-right: 20px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.logout-btn {
+    cursor: pointer;
+    color: #e74c3c; /* Đỏ cho nút đăng xuất */
+    text-decoration: none; /* Bỏ gạch chân */
+}
+
+.logout-btn:hover {
+    color: #c0392b; /* Đỏ đậm khi hover */
+}
+
+.content {
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #ffffff; /* Nền trắng cho nội dung */
+    border-radius: 8px;
+}
+
+/* Mới thêm: Bỏ gạch chân cho Link và NavLink */
+.menu li a, .menu li .active {
+    display: inline-block;
+    color: white;
+    text-decoration: none; /* Bỏ gạch chân */
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect cho link */
+.menu li a:hover, .menu li .active:hover {
+    color: #e74c3c; /* Màu đỏ cho các liên kết khi hover */
+}
+
+/* Thêm hiệu ứng cho Link/NavLink đang active */
+.menu li a.active {
+    color: #3498db; /* Màu xanh cho các liên kết đang active */
+}
+/* Nút "Trang chủ" và "Đăng xuất" giống button */
+.header-right .user-name, .header-right .logout-btn {
+    padding: 10px 20px;
+    background-color: #3498db; /* Màu xanh lam cho button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none; /* Bỏ gạch chân */
+    margin-right: 20px; /* Khoảng cách giữa các nút */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.header-right .user-name {
+    background-color: #4e9cd1; /* Xanh nhạt cho trang chủ */
+}
+
+.header-right .logout-btn {
+    background-color: #e74c3c; /* Đỏ cho nút đăng xuất */
+}
+
+.header-right .user-name:hover, .header-right .logout-btn:hover {
+    background-color: #2980b9; /* Màu xanh đậm khi hover cho "Trang chủ" */
+    transform: translateY(-2px); /* Hiệu ứng nâng nút lên một chút khi hover */
+}
+
+.header-right .logout-btn:hover {
+    background-color: #c0392b; /* Màu đỏ đậm khi hover cho "Đăng xuất" */
+}
+
+/* Thêm hiệu ứng focus khi nhấn */
+.header-right .user-name:focus, .header-right .logout-btn:focus {
+    outline: none; /* Bỏ outline mặc định */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.8); /* Thêm hiệu ứng viền cho button khi focus */
+}

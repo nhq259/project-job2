@@ -1,0 +1,25 @@
+/* Đảm bảo bạn đặt CSS này trong file CSS liên quan, ví dụ: SkillList.css */
+.skill-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Khoảng cách giữa các tag */
+    padding: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #e0f7fa; /* Màu xanh dương nhạt */
+    color: #00796b; /* Màu chữ xanh đậm */
+    padding: 8px 12px; /* Khoảng cách bên trong */
+    border-radius: 20px; /* Bo góc tròn */
+    text-decoration: none; /* Bỏ gạch chân */
+    font-size: 14px; /* Kích thước chữ */
+    font-weight: 500; /* Chữ đậm vừa phải */
+    transition: all 0.3s ease; /* Hiệu ứng mượt */
+}
+
+.tag:hover {
+    background-color: #b2ebf2; /* Màu xanh hover nhạt hơn */
+    color: #004d40; /* Màu chữ hover đậm hơn */
+    transform: scale(1.05); /* Hiệu ứng phóng to nhẹ */
+}

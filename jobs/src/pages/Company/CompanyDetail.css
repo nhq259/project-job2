@@ -1,0 +1,143 @@
+/* Container chính */
+.company-detail {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f0f8ff; /* Nền xanh nhạt */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  /* Nút trở lại */
+  .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #0056b3; /* Xanh dương đậm */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #004080; /* Xanh dương đậm hơn khi hover */
+    transform: scale(1.05);
+  }
+  
+  /* Thông tin công ty */
+  .company-info {
+    text-align: left;
+  }
+  
+  .company-info span {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .company-name {
+    color: #0056b3;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+/* Container chính cho danh sách jobs */
+.company-jobs {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9fbff; /* Màu nền xanh nhạt */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Tiêu đề */
+.jobs-title {
+  font-size: 20px;
+  color: #0056b3; /* Xanh dương đậm */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Danh sách các jobs */
+.jobs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Từng job */
+.job-item {
+  background-color: #e7f1ff; /* Nền xanh nhạt */
+  border: 1px solid #b3d4fc; /* Viền xanh */
+  border-radius: 8px;
+  padding: 15px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.job-item:hover {
+  transform: translateY(-2px); /* Hiệu ứng hover nhẹ */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Tên job */
+.job-name {
+  font-size: 18px;
+  color: #004080; /* Xanh đậm */
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Thông tin job */
+.job-info {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin: 5px 0;
+}
+
+/* Container cho các tags */
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Thẻ tag */
+.tag {
+  background-color: #f7fafd; /* Nền xanh rất nhạt */
+  color: #0056b3; /* Màu chữ xanh đậm */
+  padding: 5px 10px; /* Khoảng cách nội dung */
+  border-radius: 15px; /* Bo tròn tag */
+  border: 1px solid #b3d4fc; /* Viền xanh nhạt */
+  font-size: 12px; /* Kích thước chữ nhỏ gọn */
+  white-space: nowrap; /* Tránh xuống dòng */
+  transition: all 0.2s ease;
+}
+
+/* Hiệu ứng hover cho tags */
+.tag:hover {
+  background-color: #0056b3; /* Nền xanh đậm */
+  color: #fff; /* Chữ trắng */
+}
+
+/* Tag riêng cho thành phố */
+.city-tag {
+  background-color: #f0f8ff; /* Xanh nhạt khác biệt */
+  border-color: #a2c4e8; /* Viền nhẹ hơn */
+  color: #004080; /* Xanh đậm */
+}
+
+/* Khi không có jobs */
+.no-jobs {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
+

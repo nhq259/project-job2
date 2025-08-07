@@ -1,0 +1,71 @@
+.info-company {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    width: 500px;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  input:disabled, textarea:disabled {
+    background-color: #f0f0f0;
+  }
+  
+  button[type="submit"] {
+    align-self: center;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,108 @@
+/* Tổng thể layout */
+.layout-default {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Đảm bảo trang chiếm toàn bộ chiều cao màn hình */
+  
+    &__header {
+      background: #004080; /* Màu nền cho header */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+      .layout-default__logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+      }
+  
+      .layout-default__account {
+        display: flex;
+        gap: 15px;
+  
+        a {
+          color: #fff;
+          text-decoration: none;
+          padding: 5px 10px;
+          border-radius: 5px;
+          transition: background 0.3s, color 0.3s;
+  
+          &:hover {
+            background-color: #e7f1ff;
+            color: #004080; /* Thay đổi màu chữ khi hover */
+          }
+        }
+      }
+    }
+  
+    &__main {
+      flex: 1; /* Phần main chiếm hết không gian còn lại */
+      padding: 20px;
+      background-color: #f9f9f9; /* Màu nền cho phần main */
+    }
+  
+    &__footer {
+      background-color: #004080;
+      color: #fff;
+      text-align: center;
+      padding: 10px 20px;
+      font-size: 14px;
+      border-top: 1px solid #ddd; /* Viền trên cho footer */
+    }
+  }
+  
+  /* Menu */
+  .menu {
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+  
+      li {
+        margin-left: 20px;
+        position: relative;
+      }
+    }
+  
+    &__link {
+      color: #000;
+      text-decoration: none;
+      font-size: 16px;
+  
+      &--active {
+        color: #fff;
+      }
+    }
+  
+    &__sub {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: orangered;
+      display: none;
+      flex-direction: column;
+      z-index: 10;
+  
+      li {
+        margin-left: 0px;
+      }
+  
+      a {
+        white-space: nowrap;
+        display: block;
+        padding: 4px 10px;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  
+    li:hover > &__sub {
+      display: flex; /* Hiển thị sub menu khi hover */
+    }
+  }
+  

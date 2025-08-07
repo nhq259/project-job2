@@ -1,0 +1,136 @@
+/* Toàn bộ bảng */
+.job-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Định dạng các th và td trong bảng */
+  .job-list th,
+  .job-list td {
+    border: 1px solid #ddd;
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  /* Làm nổi bật header */
+  .job-list th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Cải thiện độ mượt khi hover vào dòng */
+  .job-list tbody tr:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  /* Thêm style cho các tags (thẻ) */
+  .job-list .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .job-list .tags span {
+    background-color: #e0f7fa;
+    color: #00796b;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #00796b;
+    font-weight: bold;
+  }
+  
+  .job-list .tags span:hover {
+    background-color: #00796b;
+    color: white;
+  }
+  
+  /* Style cho trạng thái (bật/tắt) */
+  .job-list .status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .job-list .status.active {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .job-list .status.inactive {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  /* Các nút hành động */
+  .job-list .action-buttons {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+  }
+  
+  .job-list .action-buttons button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .job-list .action-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .job-list .action-buttons button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .job-status {
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+.job-status .label {
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+.job-status .status {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50; /* Màu xanh khi job bật */
+    color: white;
+    border-radius: 16px;
+    font-size: 14px;
+}
+
+.job-status.inactive .status {
+    background-color: #f44336; /* Màu đỏ khi job tắt */
+}
+
+.job-status.active .status {
+    background-color: #4CAF50; /* Màu xanh khi job bật */
+}
+
+/* Thêm hiệu ứng hover */
+.job-status .status:hover {
+    opacity: 0.9;
+}
